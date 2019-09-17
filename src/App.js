@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
+import CartBody from './components/CartBody';
+import CartSummary from './components/CartSummary';
+import cart from './sampleData/cart';
 import './App.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
+
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Bike Shop SPA</h2>
+      <div className="app">
+        <div className="header flexRowBetween">
+          <h2>PortalParts</h2>
+          <h2>Cart</h2>
+        </div>
+        <div className="body flexRowCenter">
+          <CartBody />
+          <CartSummary />
         </div>
       </div>
     );
