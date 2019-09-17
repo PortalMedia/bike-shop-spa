@@ -10,7 +10,8 @@ let cart = {
 			regularPrice: 4000.00,
 			qty: 1,
 			salePrice: 3500.00,
-			imageName: "electricBike.png"
+			imageName: "electricBike.png",
+			onSale: true
 		},
 		{
 			portalNumber: "02043",
@@ -18,17 +19,19 @@ let cart = {
 			brandName: "Noggin",
 			regularPrice: 80.00,
 			qty: 1,
-			salePrice: null,
-			imageName: "helmet.png"
+			salePrice: 60.00,
+			imageName: "helmet.png",
+			onSale: false
 		},
 		{
 			portalNumber: "13652",
 			productName: "Tire Patch Kit",
-			brandName: "Stop Seep",
+			brandName: "No Flats",
 			regularPrice: 5.00,
 			qty: 3,
 			salePrice: 3.00,
-			imageName: "patchKit.png"
+			imageName: "patchKit.png",
+			onSale: true
 		}
 	]
 }

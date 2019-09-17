@@ -14,24 +14,24 @@ class CartSummary extends Component {
 				<div style={{ margin: '15px 15px 60px 15px' }}>
 					<div className="flexRowBetween lineItem">
 						<span>Subtotal</span>
-						<span>$$$</span>
+						<span>?</span>
 					</div>
 					<div className="flexRowBetween lineItem">
 						<span>Shipping</span>
-						<span>$$$</span>
+						<span>?</span>
 					</div>
 					<div className="flexRowBetween lineItem">
 						<span>Tax</span>
-						<span>$$$</span>
+						<span>?</span>
 					</div>
 					<div className="divider"></div>
 					<div className="flexRowBetween lineItem">
 						<span>Total</span>
-						<span>$$$</span>
+						<span>?</span>
 					</div>
 					<div className="flexRowBetween lineItem" style={{ color: '#b51414' }}>
 						<span>You Saved</span>
-						<span>$$$</span>
+						<span>?</span>
 					</div>
 				</div>
 				<div className="checkoutButton">
