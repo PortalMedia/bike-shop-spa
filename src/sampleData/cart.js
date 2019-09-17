@@ -10,7 +10,7 @@ let cart = {
 			regularPrice: 4000.00,
 			qty: 1,
 			salePrice: 3500.00,
-			imageUrl: "assets/electricBike.png"
+			imageName: "electricBike.png"
 		},
 		{
 			portalNumber: "02043",
@@ -19,7 +19,7 @@ let cart = {
 			regularPrice: 80.00,
 			qty: 1,
 			salePrice: null,
-			imageUrl: "assets/helmet.png"
+			imageName: "helmet.png"
 		},
 		{
 			portalNumber: "13652",
@@ -28,7 +28,7 @@ let cart = {
 			regularPrice: 5.00,
 			qty: 3,
 			salePrice: 3.00,
-			imageUrl: "assets/tirePatchKit.png"
+			imageName: "patchKit.png"
 		}
 	]
 }
