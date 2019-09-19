@@ -1,6 +1,6 @@
 let cart = {
 	id: 123,
-	deliveryMethod: "S",
+	deliveryMethod: "Ship",
 	shipCost: 15.00,
 	products: [
 		{
