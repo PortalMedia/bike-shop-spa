@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CartBody from './components/CartBody';
 import CartSummary from './components/CartSummary';
-import cart from './sampleData/cart';
 import './App.css';
 
 class App extends Component {
